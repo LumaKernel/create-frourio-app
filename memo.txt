@@ -1,0 +1,10 @@
+cat <<EOF | tee a.sh
+#!/bin/bash
+export TEST_CFA_RANDOM_NUM=1
+export TEST_CFA_FIX_DB=postgresql
+export TEST_CFA_FIX_ORM=prisma
+export TEST_PG_PORT=5432
+export TEST_PG_PASSWORD=postgres
+EOF
+source a.sh
+echo $TEST_CFA_FIX_DB
