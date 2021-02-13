@@ -33,6 +33,9 @@ yarn-error.log*
 /.env.test.local
 /.env.production.local
 
+# library build
+/lib
+
 # server
 server/**/$*.ts
 server/index.js

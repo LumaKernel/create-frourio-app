@@ -33,6 +33,7 @@
   "files": [
     "bin",
     "out",
+    "lib",
     "server/index.js",
     "server/templates"
   ],
